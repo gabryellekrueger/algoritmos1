@@ -1,0 +1,27 @@
+Análise e Desenvolvimento de Sistemas 2021
+Algoritmos e Lógica de Programação I
+Aluna: Gabryelle Farias Krueger
+
+Atividade 1
+
+Algoritmo Atividade01
+Var
+	nomeColab: caractere
+	salarioFixo, vendaSemana, totalVendas : real
+Início
+Para i de 1 até 4 passo 1 faça
+	Escreva("Insira o nome do colaborador:")
+	Leia(nomeColab)
+Escreva("Insira o salário fixo do colaborador:")
+Leia(salarioFixo)
+totalVendas <= 0
+Para j de 1 até 4 passo 1 faça
+Escreva(“Insira o valor da venda da semana ”, j, “:”)
+Leia(vendaSemana)
+totalVendas <= totalVendas + vendaSemana
+Fim_para
+Escreva("Nome do colaborador: ", nomeColab)
+Escreva("Total de vendas: ", totalVendas)
+Escreva("Salário do mês: ", salarioFixo + (totalVendas * 0.1))
+	Fim_para
+Fim
